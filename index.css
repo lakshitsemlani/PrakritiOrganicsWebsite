@@ -46,7 +46,10 @@ body{
 
 @media (max-width: 900px ){
     .carousel-item{
-        height: 250px;
+        height: 400px;
+      }
+     .carousel-caption d-none d-block pb-2{
+        font-size: 20px;
     }
 }
 
