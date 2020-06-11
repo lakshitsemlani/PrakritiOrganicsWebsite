@@ -11,7 +11,7 @@
         crossorigin="anonymous">
 
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/85a53d11c2.js" crossorigin="anonymous"></script>
 
     <!-- Index CSS-->
     <link rel="stylesheet" type="text/css" href="index.css">
@@ -172,83 +172,37 @@
 
     </div>
 
-<!--
-    <section class="stat" id="stats">
-        <div class="container">
-            <div class="stat-box">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="stat-items">
-                            <i class="fa fa-camera mb-1"></i>
-                            <h2><span class="count test-center mb-1">3390</span></h2>
-                            <p>USERS</p>
-                        </div>
-                    </div>
 
-                    <div class="col-md-3">
-                        <div class="stat-items">
-                            <i class="fa fa-android mb-1"></i>
-                            <h2><span class="count test-center mb-1">3245</span></h2>
-                            <p>ANDROID</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="stat-items">
-                            <i class="fa fa-cog mb-1"></i>
-                            <h2><span class="count test-center mb-1">15804</span></h2>
-                            <p>INTERNATIONALY</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="stat-items">
-                            <i class="fa fa-edit mb-1"></i>
-                            <h2><span class="count test-center mb-1">9800</span></h2>
-                            <p>HAHHA</p>
-                        </div>
-                    </div>
-                </div>
-            </div>    
-        </div>
-    </section>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha256-XJuslujM3cGzRZGiSi/KNSdk58uORO/mmrEQNjVtb5k=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=" crossorigin="anonymous"></script>
-    
-    <script>
-            $('.count').counterUp({
-                delay: 10,
-                time: 1000
-            });
-    </script>
--->
  <br><br>
     <section class="fact-area">
         <div class="container">
             <div class="fact-box">
                 <div class="row">
                     <div class="col-3 single-fact">
-                        <i class="fa fa-facebook-square fa-3x" aria=-hidden="true"></i>
-                        <h2 class="count">100</h2>
-                        <p> Friends </p>
+                        <div class="icon"><img src="images/farmers.png" id="icon"></div>
+                        <div class="row"><div class="col-8 pr-1 mr-0"><h2 class="count align-items-right">200</h2></div><div class="col-3 pl-0 ml-0"><h1>+</h1></div></div>
+                        <p> Organic<br>Farmers</p>
                     </div> 
-                    <div class="col-3 single-fact">
-                        <i class="fa fa-instagram fa-3x" aria=-hidden="true"></i>
-                        <h2 class="count">600</h2>
-                        <p> Followers </p>
+                    <div class="col-2 single-fact">
+                        <div class="icon"><img src="images/india.png" id="icon"></div>
+                        <div class="row"><div class="col-7 pr-1 mr-0"><h2 class="count align-items-right">12</h2></div><div class="col-5 pl-0 ml-0"><h1>+</h1></div></div>
+                        <p> Indian States </p>
                     </div> 
+                    <div class="col-2 single-fact">
+                        <i class="fas fa-carrot fa-3x align-items-center justify-content-centre"></i>
+                        <div class="row"><div class="col-8 px-1 mr-0"><h2 class="count align-items-right">100</h2></div><div class="col-4 pl-0 ml-0"><h1>+</h1></div></div>
+                        <p> Certified Products </p>
+                    </div>  
+                    <div class="col-2 single-fact">
+                        <div class="icon"><img src="images/ourteam.png" id="icon"></div>
+                        <div class="row"><div class="col-6 pr-0 mr-0"><h2 class="count align-items-right">12</h2></div><div class="col-6 pl-0 ml-0"><h1>+</h1></div></div>
+                        <p> Years of Experience </p>
+                    </div>
                     <div class="col-3  single-fact">
-                        <i class="fa fa-twitter fa-3x" aria=-hidden="true"></i>
-                        <h2 class="count">7878</h2>
-                        <p> followers </p>
-                    </div> 
-                    <div class="col-3 single-fact">
-                        <i class="fa fa-youtube fa-3x" aria=-hidden="true"></i>
-                        <h2 class="count">762 </h2>
-                        <p> subscribers </p>
-                    </div>              
+                        <div class="icon"><img src="images/land.png" id="icon"></div>
+                        <div class="row"><div class="col-8 pr-0 mr-0"><h2 class="count align-items-right">1000</h2></div><div class="col-4 pl-0 ml-0"><h1>+</h1></div></div>
+                        <p> Acres<br> Farming </p>
+                    </div>             
                 </div>    
             </div>
         </div>
@@ -257,8 +211,8 @@
     <script> 
         jQuery(document).ready(function($){
         $('.count').counterUp({
-            delay: 10,
-            time: 1000
+            delay: 15,
+            time: 1500
         });
     });
     </script>

@@ -55,35 +55,6 @@ body{
     font-size:1.125rem;
 }
 
-
-/* stats 
-
-.stat{
-    background: #121212;
-    color: white;
-    background-attachment: fixed;
-    margin-top: 1rem;
-    margin-bottom: 5rem;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-}
-
-.stat i{
-    font-size: 2rem;
-}
-
-.stat-items h2{
-    font-weight: bold;
-    font-size:1.5 rem;
-    color :#d2691e; 
-
-}
-
-.stat p{
-    letter-spacing: 0.05rem;
-}
-*/
-
 /*facts*/
 
 .fact-area{
@@ -104,14 +75,31 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.fa-carrot{
+    color: orangered;
+}
+
 .single-fact h2{
     font-size: 3rem;
     margin-top: 1rem;
     font-weight: 500;
+    text-align: right;
+}
+
+.single-fact h1{
+    font-size: 3rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.icon{
+    text-align: center;
 }
 
 .single-fact p{
     font-size:2rem;
+    text-align: center;
 }
 
 @media (max-width:900px){
@@ -122,18 +110,17 @@ body{
         font-size: 1.8rem;
         margin-top: 1rem;
         font-weight: 500;
+        text-align: right;
+    }
+    .single-fact h1{
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        font-weight: 500;
+        text-align: left;
     }
 }
 
-.fa-facebook-square{
-    color: #3b5998;
-}
-.fa-instagram{
-    color: #c13584;
-}
-.fa-twitter{
-    color: #3f729b;
-}
-.fa-youtube{
-    color: #c4302b;
+#icon {
+    height: 50px;
+    width: 50px;
 }
