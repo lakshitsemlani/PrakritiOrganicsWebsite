@@ -1,5 +1,5 @@
 body {
-  background-color:PaleGreen;
+  background-color:GreenYellow;
 }
 .container{
   position: relative;
@@ -33,7 +33,7 @@ align-items: center;
   margin:20px;
   padding:10px;
   width:462px;
-  height:400px;
+  height:550px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   align-self: center;
 }
