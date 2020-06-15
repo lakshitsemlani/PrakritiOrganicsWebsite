@@ -22,7 +22,7 @@
 }
 
 body{
-    background-color: #fffdd0;
+    background-color: white;
     padding-top: 68px;
 }
 
@@ -36,16 +36,10 @@ body{
     font-weight: 400;
 }
 
-
-
 @media (max-width: 900px ){
     .carousel-item{
-        height: 400px;
+        height: 350px;
       }
-     .carousel-caption d-none d-block pb-2{
-        font-size: 20px;
-    }
-
 }
 
 .dropdown-item:hover{
@@ -53,22 +47,42 @@ body{
     font-size:1.125rem;
 }
 
-
-
 @media(max-width:900px){
 .carousel-caption h2{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 .navbar-brand{
-    font-size:1.75rem;
+    font-size:1.85rem;
+}
+.carousel-caption p{
+    font-size: 0.9rem;
 }
 }
 
-@media(max-width:900px){
+@media(max-width:600px){
+    .carousel-caption h2{
+        font-size: 0.8rem;
+    }
+    .navbar-brand{
+        font-size:1.75rem;
+    }
     .carousel-caption p{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     }
+
+@media(max-width:480px){
+    #navbarDropdown{
+    	font-size: 1rem;
+    }
+    .navbar-brand{
+        font-size:1.30rem;
+    }
+    .carousel-item{
+        height: 300px;
+      }
+    
+}
 
 /*facts*/
 
@@ -85,7 +99,7 @@ body{
 .single-fact{
     text-align: center;
     margin:45px 0;
-    padding:8px 16px;
+    padding:8px 8px;
     border-right: 1px solid #ddd;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -115,6 +129,8 @@ body{
 
 .icon{
     text-align: center;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .single-fact p{
@@ -144,6 +160,10 @@ body{
     #facts-heading h2{
         font-size: 1.25rem;
     }
+
+    #facts-heading{
+        padding-top:24px;
+    }
     .fact-box{
         padding-top: 0;;
         height:325px;
@@ -156,5 +176,55 @@ body{
 }
 
 .fact-box{
-    background-color: white;
+    background-color: #fffdd0;
+}
+
+@media(max-width:480px){
+    .single-fact p{
+        font-size:10px;
+        font-weight:300;
+    }
+    .single-fact h2{
+        font-size: 1.5rem;
+        margin-top: 0.75rem;
+        font-weight: 300;
+        text-align: right;
+    }
+    .single-fact h1{
+        font-size: 1.5rem;
+        margin-top: 0.75rem;
+        font-weight: 300;
+        text-align: left;
+    }
+    #facts-heading h2{
+        font-size: 1rem;
+    }
+    .fact-box{
+        padding-top: 0;;
+        height:300px;
+    }
+}
+
+
+.footer-bottom {
+    background: #111709;
+    border-top: 1px solid #19220e;
+    padding: 21px 0;
+}
+
+.footer-bottom p{
+    font-size: 17px !important;
+    color: #999;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.footer-bottom .copy-text a {
+    color: #8dc63f;
+    font-size: 14px;
+}
+.footer-bottom a {
+    color: #8dc63f;
+    font-size: 16px;
+    transition: .3s ease;
 }
