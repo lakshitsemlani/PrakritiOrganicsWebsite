@@ -137,10 +137,10 @@
     font-size: 1.40rem;
   }
 
-  .objectives{
+  .ourstory .objectives{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
-    font-size: 1.10rem;
+    font-size: 1.20rem;
   }
   
   @media(max-width:1470px){
@@ -149,6 +149,9 @@
     }
     .ourstory p{
       font-size:1.40rem;
+    }
+    .ourstory .objectives{
+      font-size:1.10rem;
     }
   }
   
@@ -161,6 +164,9 @@
     }
     .mission{
         font-size:1.05rem ;    
+    }
+    .ourstory .objectives{
+      font-size:0.85rem;
     }
   }
   
@@ -177,6 +183,9 @@
     .mission{
         font-size:1.5rem
     }
+    .ourstory .objectives{
+      font-size:1.25rem;
+    }
   }
 
   @media(max-width:570px){
@@ -188,6 +197,9 @@
     }
     .mission{
         font-size: 1rem;
+    }
+    .ourstory .objectives{
+      font-size:0.95rem;
     }
   }
   
