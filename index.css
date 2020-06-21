@@ -1,11 +1,11 @@
 
 #mainNavbar{
-    background-color: white;
+    background-color:#556b2f;
    /* box-shadow: 2px 1px 3px 0.1px #000000;*/
 }
 
 #navbarDropdown:hover{
-    color: green;
+    color:#0ec0e2;
     font-size: 1.15rem;
     font-weight: 500;
 }
@@ -13,26 +13,28 @@
 #navbarDropdown{
     font-weight: 400;
     line-height: 1.25;
+    color:white;
 }
 
 @media (min-width: 1280px){
 	#navbarDropdown{
     	font-size: 1.15rem;
-	}
+    }
 }
 
 body{
-    background-color: white;
+    background-color: #ff9933;
     padding-top: 68px;
 }
 
 .navbar-brand{
     font-weight:350;
     font-size:2rem;
+    color:white;
 }
 
 #Navbar-Brand:hover{
-    color:green;
+    color:#0ec0e2;
     font-weight: 400;
 }
 
@@ -43,7 +45,7 @@ body{
 }
 
 .dropdown-item:hover{
-    color:green;
+    color:#0ec0e2;
     font-size:1.125rem;
 }
 
@@ -57,6 +59,10 @@ body{
 .carousel-caption p{
     font-size: 0.9rem;
 }
+}
+
+.carousel-caption{
+    background-color: rgba(0,0,0,0.5)
 }
 
 @media(max-width:600px){
@@ -84,6 +90,26 @@ body{
     
 }
 
+iframe{
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+/*quality*/
+.quality-area{
+    background-color: #ff8c18;
+}
+.section-title{
+    text-align: center;
+}
+.service-item{
+    text-align: center;
+}
+.quality-area .container .row{
+    background-color: #fffdd0;
+}
+
 /*facts*/
 
 .fact-area{
@@ -91,6 +117,7 @@ body{
     height: auto;
     display:flex;
     margin-bottom: 4rem;
+    background-color: #f77f00;
 }
 
 .fact-box{
@@ -208,9 +235,10 @@ body{
 
 /*testimonial section*/
 .testimonial-area{
-    padding: 180px 0;
+    padding: 70px 0;
     position: relative;
-    background-image: url(2.webp);
+    /*background-image: url(2.webp);*/
+    background-color:#e67300;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -220,12 +248,33 @@ body{
 
 .testimonial-area:before{
     position: absolute;
+    /*background-color: rgba(0,0,0,0.8);*/
     content: '';
-    background:rgba(0,0,0,0.9);
     width : 100%;
     height:100%;
     top:0;
     left:0;
+}
+
+.testimonial-heading h1{
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size:2.5rem;
+    color:black;
+
+}
+
+.testimonial-heading img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:25%;
+    height:25px
+}
+
+.testimonial-heading{
+    padding-bottom:45px;
 }
 
 .single-testimonial{
@@ -246,13 +295,14 @@ body{
 }
 
 .testi-text{
-    background: #ffff4a;
+    background-color:white;
+
     padding: 40px 20px 40px 100px;
     color: #262626;
 }
 
 .img-area > img{
-    background: linear-gradient(to bottom, darkcyan, white);
+    background: linear-gradient(to bottom, rgba(224, 107, 22, 0.6), white);
     border-radius: 50%;
     padding: 5px;
 }
@@ -261,16 +311,16 @@ body{
     font-size : 30px;
     font-weight: 500;
     margin-bottom: 30px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Courgette',cursive;
 }
 
 .testi-text h4 span{
     display: block;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .testi-text p{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Courgette', cursive;
     line-height: 25px;
     font-size: 18px;
     font-weight: 300;
@@ -282,7 +332,7 @@ body{
 }
 
 .testimonial-area div.owl-nav{
-    color: #ffff4A;
+    color:white;
     display: inline-block;
     font-size: 55px;
     height: 60px;
@@ -308,11 +358,23 @@ body{
 
 @media only screen and (max-width : 767px){
     .testimonial-area{
-        padding: 15px 0;
+        padding: 20px 0;
     }
     .single-testimonial{
         padding-left: 0;
         padding-top: 75px;
+    }
+    .testimonial-heading h1{
+        padding-bottom:5px;
+        font-size: 1.75rem;
+        padding-top: 5px;;
+    }
+    .testimonial-heading img{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:25%;
+        height:15px
     }
     .img-area{
         left: 50%;
@@ -320,14 +382,17 @@ body{
         top: 75px;
     }
     .testi-text{
-        padding: 80px 25px 25px;
+        padding: 100px 25px 25px;
     }
     .testi-text h4{
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 20px;
     }
+    .testi-text h4 span{
+        font-size: 12px;
+    }
     .testi-text p{
-        font-size: 16px;
+        font-size: 14px;
     }
     .owl-prev{
         left: -15px;
@@ -344,7 +409,7 @@ body{
 
 /*Footer*/
 .footer-bottom {
-    background: #111709;
+    background: #663300;
     border-top: 1px solid #19220e;
     padding: 21px 0;
 }
