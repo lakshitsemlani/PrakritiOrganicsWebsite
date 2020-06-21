@@ -1,11 +1,11 @@
 
 #mainNavbar{
-    background-color:;
+    background-color:#556b2f;
    /* box-shadow: 2px 1px 3px 0.1px #000000;*/
 }
 
 #navbarDropdown:hover{
-    color: green;
+    color:#0ec0e2;
     font-size: 1.15rem;
     font-weight: 500;
 }
@@ -19,11 +19,11 @@
 @media (min-width: 1280px){
 	#navbarDropdown{
     	font-size: 1.15rem;
-	}
+    }
 }
 
 body{
-    background-color: #ffd337;
+    background-color: #ff9933;
     padding-top: 68px;
 }
 
@@ -34,7 +34,7 @@ body{
 }
 
 #Navbar-Brand:hover{
-    color:white;
+    color:#0ec0e2;
     font-weight: 400;
 }
 
@@ -90,6 +90,26 @@ body{
     
 }
 
+iframe{
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+/*quality*/
+.quality-area{
+    background-color: #ff8c18;
+}
+.section-title{
+    text-align: center;
+}
+.service-item{
+    text-align: center;
+}
+.quality-area .container .row{
+    background-color: #fffdd0;
+}
+
 /*facts*/
 
 .fact-area{
@@ -97,6 +117,7 @@ body{
     height: auto;
     display:flex;
     margin-bottom: 4rem;
+    background-color: #f77f00;
 }
 
 .fact-box{
@@ -217,7 +238,7 @@ body{
     padding: 70px 0;
     position: relative;
     /*background-image: url(2.webp);*/
-    background-color:rgba(224, 107, 22, 0.6);
+    background-color:#e67300;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -388,7 +409,7 @@ body{
 
 /*Footer*/
 .footer-bottom {
-    background: #111709;
+    background: #663300;
     border-top: 1px solid #19220e;
     padding: 21px 0;
 }
