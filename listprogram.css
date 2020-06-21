@@ -1,6 +1,3 @@
-
-
-
 .centered {
     position: absolute;
     top: 50%;
@@ -117,6 +114,9 @@
     font-size: 14px;
   }
   
+  .image{
+    height:600px;
+  }
   .ourstory h3{
     text-align: center;
     color:rgba(210,105,30,0.8);
@@ -124,33 +124,18 @@
     font-weight: 500;
     font-size: 2.5rem;
   }
-  
-  .ourstory p{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    font-size: 1.55rem;
-  }
 
-  .mission{
+  .programs{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 1.40rem;
-  }
-
-  .ourstory .objectives{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    font-size: 1.20rem;
   }
   
   @media(max-width:1470px){
     .ourstory h3{
       font-size:2rem;
     }
-    .ourstory p{
-      font-size:1.40rem;
-    }
-    .ourstory .objectives{
+    .programs{
       font-size:1.10rem;
     }
   }
@@ -159,49 +144,33 @@
     .ourstory h3{
       font-size:1.5rem;
     }
-    .ourstory p{
+    .programs{
       font-size:1.05rem;
-    }
-    .mission{
-        font-size:1.05rem ;    
-    }
-    .ourstory .objectives{
-      font-size:0.85rem;
     }
   }
   
-  @media(max-width:990px){
-    .ourstory p{
-      font-size:1.5rem;
-    }
+  @media(max-width:990p){
     .row{
         border-bottom: 1px solid rgba(210,105,30,0.8);
     }
     .ourstory h3{
       font-size:1.80rem;
     }
-    .mission{
+    .programs{
         font-size:1.5rem
-    }
-    .ourstory .objectives{
-      font-size:1.25rem;
     }
   }
 
   @media(max-width:570px){
-    .ourstory p{
-      font-size:1rem;
-    }
     .ourstory h3{
       font-size:1.30rem;
     }
-    .mission{
+    .programs{
         font-size: 1rem;
     }
-    .ourstory .objectives{
-      font-size:0.95rem;
-    }
   }
-  
 
-  
+  .program{
+    padding-left: 2rem;
+  }
+ 

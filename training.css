@@ -122,36 +122,41 @@
     color:rgba(210,105,30,0.8);
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 500;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   
   .ourstory p{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
-    font-size: 1.55rem;
+    font-size: 1.50rem;
   }
 
-  .mission{
+  .tagline {
+        font-family: 'Josefin Sans', sans-serif;
+        color:rgba(210,105,30);
+        font-weight: 300;
+        font-size: 2rem;
+    }
+
+  .topics li{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
-    font-size: 1.40rem;
+    font-size: 0.95rem;
   }
 
-  .ourstory .objectives{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    font-size: 1.20rem;
-  }
   
   @media(max-width:1470px){
     .ourstory h3{
-      font-size:2rem;
+      font-size:1.75rem;
     }
     .ourstory p{
-      font-size:1.40rem;
+      font-size:1.25rem;
     }
-    .ourstory .objectives{
-      font-size:1.10rem;
+    .tagline{
+        font-size:1.75rem;
+    }
+    .topics li{
+      font-size:0.90rem;
     }
   }
   
@@ -162,11 +167,11 @@
     .ourstory p{
       font-size:1.05rem;
     }
-    .mission{
-        font-size:1.05rem ;    
+    .topics li{
+      font-size:0.90rem;
     }
-    .ourstory .objectives{
-      font-size:0.85rem;
+    .tagline{
+        font-size:1.50rem;
     }
   }
   
@@ -180,11 +185,11 @@
     .ourstory h3{
       font-size:1.80rem;
     }
-    .mission{
-        font-size:1.5rem
+    .topics{
+      font-size:1.35rem;
     }
-    .ourstory .objectives{
-      font-size:1.25rem;
+    .tagline{
+        font-size:1.30rem;
     }
   }
 
@@ -195,13 +200,10 @@
     .ourstory h3{
       font-size:1.30rem;
     }
-    .mission{
-        font-size: 1rem;
-    }
-    .ourstory .objectives{
+    .topics{
       font-size:0.95rem;
     }
+    .tagline{
+        font-size:1.15rem;
+    }
   }
-  
-
-  
