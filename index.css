@@ -23,7 +23,7 @@
 }
 
 body{
-    background-color: #ff9933;
+    background-color: white;
     padding-top: 68px;
 }
 
@@ -90,25 +90,43 @@ body{
     
 }
 
-iframe{
-    position: absolute;
-    left:0;
-    top:0;
-}
+
 
 /*quality*/
 .quality-area{
-    background-color: #ff8c18;
+    background-color: #0f9ff8;
 }
 .section-title{
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color:black;
 }
-.service-item{
+.service-item h4{
+    padding-top:1rem;
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color:rgba(210,105,30,0.8);
 }
-.quality-area .container .row{
-    background-color: #fffdd0;
+.service-item p{
+    padding-top:0.50rem;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color:black;
+    font-weight:300;
+    font-size: 1.25rem;
 }
+.quality-area .container{
+    background-color: white;
+}
+.quality-box{
+    box-shadow: 0px 10px 50px 5px rgba(0,0,0,0.5);
+}
+
+/*Youtube*/
+.youtube{
+    background-color:white;
+}
+
 
 /*facts*/
 
@@ -117,11 +135,11 @@ iframe{
     height: auto;
     display:flex;
     margin-bottom: 4rem;
-    background-color: #f77f00;
+    background-color:white ;
 }
 
 .fact-box{
-    box-shadow: 0px 10px 50px 5px rgba(153,153,153,0.2);
+    box-shadow: 0px 10px 50px 5px rgba(0,0,0,0.5);
 }
 
 .single-fact{
@@ -238,7 +256,7 @@ iframe{
     padding: 70px 0;
     position: relative;
     /*background-image: url(2.webp);*/
-    background-color:#e67300;
+    background-color: #df9927;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
