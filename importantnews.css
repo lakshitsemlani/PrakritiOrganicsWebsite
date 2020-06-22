@@ -1,0 +1,71 @@
+body {
+  background-color: #fffdd0;
+}
+  .inner-banner {
+    position: relative;
+    background: #a0a19b;
+    background-size: cover;
+  }
+  .inner-banner:before {
+      content: '';
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 0;
+  }
+
+  .inner-banner h1 {
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 60px;
+    color: #fff;
+  }
+  .inner-banner .box {
+    position: relative;
+    display: table;
+    height: 280px;
+    width: 100%;
+    text-align: center;
+  }
+
+@media (max-width: 900px ){
+    .container-image{
+        height: 250px;
+    }
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.container-frame{
+margin:20px 110px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+
+.card-lower{
+
+  width:300px;
+  height:320px;
+  border-color: black;
+  align-self: center;
+  background-color: white;
+  padding: 5px;
+  margin-top:20px;
+  background: black;
+  }
