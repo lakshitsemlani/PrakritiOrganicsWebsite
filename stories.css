@@ -203,7 +203,7 @@ body {
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 300;
     }
-    .box h1{
+    .inner-banner .box h1{
         font-family: 'Josefin Sans', sans-serif;   
     }
     .shilpy h2{
@@ -258,9 +258,9 @@ body {
         }
         .breadcumb-wrapper ul,
         .breadcumb-wrapper li {
-          font-size: 10px;
+          font-size: 12px;
         }
         .breadcumb-wrapper ul.link-list li a {
-            font-size: 10px;
+            font-size: 12px;
         }
     }

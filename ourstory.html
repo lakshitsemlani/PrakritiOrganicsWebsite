@@ -11,156 +11,157 @@
         crossorigin="anonymous">
 
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/85a53d11c2.js" crossorigin="anonymous"></script>
 
     <!-- Index CSS-->
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="ourstory.css">
 
+    <!--jQuey CDN-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
     <!-- Goggle Font CDN -->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&display=swap" rel="stylesheet">
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 
     <title>OVERVIEW</title>
 </head>
 
 <body>
 
-  <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light py-0 order-2 fixed-top" >
-      <a id="Navbar-Brand" class="navbar-brand pl-sm-1 pl-md-3 pl-xl-5 ml-3" href="Index.html"><img src="./Prakriti.png" width="50" height="50" class="d-inline-block align-center justify-content-center mb-1 " id="logo" alt="" loading="lazy"> Prakriti Organics</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+<!--NavBar-->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark py-0 fixed-top container-fluid pl-0 pl-sm-3" >
+        <a id="Navbar-Brand" class="navbar-brand pl-sm-1 pl-md-3 pl-xl-5 ml-3" href="Index.html"><img src="./Prakriti.png" width="50" height="50" class="d-inline-block align-center justify-content-center mb-1 " id="logo" alt="" loading="lazy"> Prakriti Organics</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-      <div class=" collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="container-fluid navbar-nav mr-auto justify-content-center align-itens-center">
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle pr-xl-4 pl-lg-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                      aria-haspopup="true" aria-expanded="false">
-                      About Us
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="ourstory.html">Overview</a>
-                      <a class="dropdown-item" href="vision.html">Vision & Mission</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/">Our Inspiration</a>
-                      <a class="dropdown-item" href="ourteam.html">Our Team</a>
-                  </div>
-              </li>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle pr-xl-4 pl-lg-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Farmer Friends
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="https://farmerspride.in/collections/rice">Stories of Hope</a>
-                    <a class="dropdown-item" href="https://farmerspride.in/collections/pulses">Important News</a>
-                    <a class="dropdown-item" href="#">Our Community</a>
+        <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="container-fluid navbar-nav mr-auto justify-content-center align-itens-center">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle pl-3 pr-xl-4 pl-lg-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        About Us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="ourstory.html">Overview</a>
+                        <a class="dropdown-item" href="vision.html">Vision & Mission</a>
+                        <a class="dropdown-item" href="ourinspiration.html">Our Inspiration</a>
+                        <a class="dropdown-item" href="ourteam.html">Our Team</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle pl-3 pr-xl-4 pl-lg-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Farmer Friends
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="stories.html">Stories of Hope</a>
+                        <a class="dropdown-item" href="importantnews.html">Important News</a>
+                        <a class="dropdown-item" href="ourcommunity.html">Our Community</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle pl-3 pr-xl-4 pl-lg-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="kop.html">Know Our Products</a>
+                        <a class="dropdown-item" href="https://farmerspride.in/collections/rice">Organic Rice</a>
+                        <a class="dropdown-item" href="https://farmerspride.in/collections/pulses">Organic Pulses</a>
+                        <a class="dropdown-item" href="https://farmerspride.in/collections/sweets">Organic Sweets</a>
+                        <a class="dropdown-item" href="https://farmerspride.in/collections/oils">Organic Oils</a>
+                        <a class="dropdown-item" href="https://farmerspride.in/collections/spices">Organic Spices</a>
+                        <a class="dropdown-item" href="https://farmerspride.in/collections/cow-ghee">Organic Milk Products</a>
+                        <a class="dropdown-item" href="https://farmerspride.in/collections/millets">Organic Millets</a>
+                        <a class="dropdown-item" href="https://farmerspride.in/collections/flours">Organic Flours</a>
+                        <a class="dropdown-item" href="https://farmerspride.in/">Buy from Us</a>
+                    </div>
+                </li>
 
-                </div>
-            </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle pr-xl-4 pl-lg-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                      aria-haspopup="true" aria-expanded="false">
-                      Products
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Know Our Products</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/collections/rice">Organic Rice</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/collections/pulses">Organic Pulses</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/collections/sweets">Organic Sweets</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/collections/oils">Organic Oils</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/collections/spices">Organic Spices</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/collections/cow-ghee">Organic Milk Products</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/collections/millets">Organic Millets</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/collections/flours">Organic Flours</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/">Buy from Us</a>
-                  </div>
-              </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle pl-3 pr-xl-4 pl-lg-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Training
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="training.html">Previous Trainings</a>
+                        <a class="dropdown-item" href="listprogram.html">Awareness Programs</a>
+                        <a class="dropdown-item" href="documents.html">Documents</a>
+                        <a class="dropdown-item" href="kitchen.html">Kitchen Garden Project</a>
+                        <a class="dropdown-item" href="organiccertification.html">Certification</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle pl-3 pr-xl-4 pl-lg-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Blog
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="information.html">Information</a>
+                        <a class="dropdown-item" href="research.html">Farmer's Research</a>
+                        <a class="dropdown-item" href="health.html">Health Issues and Tips</a>
+                        <a class="dropdown-item" href="ecological_issues.html">Ecological Issues</a>
+                        <a class="dropdown-item" href="recipes.html">Recipes</a>
 
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle pr-xl-4 pl-lg-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                      aria-haspopup="true" aria-expanded="false">
-                      Training
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="https://farmerspride.in/collections/rice">Previous Trainings</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/">Documents</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/">Kitchen Garden Project</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/">Certification</a>
-                      <a class="dropdown-item" href="#">Awareness Programs</a>
-
-                  </div>
-              </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle pr-xl-4 pl-lg-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                      aria-haspopup="true" aria-expanded="false">
-                      Blog
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="https://farmerspride.in/collections/rice">Information</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/collections/pulses">Farmer's Research</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/">Health Tips</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/">Ecological Issues</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/">Health Issues</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/">Recipes</a>
-
-                  </div>
-              </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle pr-xl-4 pl-lg-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                      aria-haspopup="true" aria-expanded="false">
-                      Youth Connect
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="https://farmerspride.in/collections/rice">BITS 2020</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/collections/rice">Gandhi Fellowship</a>
-                      <a class="dropdown-item" href="https://farmerspride.in/collections/rice">Intern With Us</a>
-                  </div>
-              </li>
-              <li class="nav-item" >
-                  <a class="nav-link" id="navbarDropdown" href="contactus.html">Contact Us</a>
-              </li>
-          </ul>
-      </div>
-    </nav>
-
-
-  <div class="inner-banner has-base-color-overlay text-center" style="background: url(images/44.png);background-repeat:  no-repeat;background-size:cover;">
-    <div class="container justify-content-center align-items-center">
-        <div class="box">
-            <h1>OVERVIEW</h1>
-        </div>
-    </div>
-</div>
-<div class="breadcumb-wrapper ml-4 pl-4">
-        <div class="pull-left">
-            <ul class="list-inline link-list">
-                <li>
-                    <a href="index.html">Home</a> Overview
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle pl-3 pr-xl-4 pl-lg-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Youth Connect
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="bits2020.html">BITS 2020</a>
+                        <a class="dropdown-item" href="gandhi_fellow.html">Gandhi Fellowship</a>
+                        <a class="dropdown-item" href="intern.html">Intern With Us</a>
+                    </div>
+                </li>
+                <li class="nav-item pl-3 pl-lg-0" >
+                    <a class="nav-link" id="navbarDropdown" href="contactus.html">Contact Us</a>
                 </li>
             </ul>
         </div>
-</div>
+    </nav>
+
+
+<!--heading-->
+    <div class="inner-banner has-base-color-overlay text-center" style="background: url(images/44.png);background-repeat:  no-repeat;background-size:cover;">
+        <div class="container justify-content-center align-items-center">
+            <div class="box">
+                <h1>OVERVIEW</h1>
+            </div>
+        </div>
+    </div>
+
+
+<!--Breadcumb-->
+    <div class="breadcumb-wrapper ml-4 pl-4">
+            <div class="pull-left">
+                <ul class="list-inline link-list">
+                    <li>
+                        <a href="index.html">Home</a> Overview
+                    </li>
+                </ul>
+            </div>
+    </div>
     <br>
 
+<!--content-->
     <div class="overview-introduction ">
         <div class="container pb-4 px-3 px-sm-5">
             <h3>PRAKRITI ORGANICS</h3>
-        <p> Prakriti Organics was formed by concerned individuals from Farming, Food processing, Dairy, Agro Sciences & administration backgrounds who have deliberated about food crises and worked on developing solutions for improving quality of products and eco-system around it.
-            This group came across many research papers & experts which suggested that our collective evolution and growth depends on natural & biodiversity-based farming.
-            They also studied & reviewed multiple myths associated with green revolution and the way chemical, HY seeds & pesticides-based farming was promoted in India.
-            They are working with clarity and resolve to re-establish biodiversity based organic farming which enables natural & good quality food for households and provides better remuneration & dignity for farmers.
-        </p>
-    </div>
+            <p> Prakriti Organics was formed by concerned individuals from Farming, Food processing, Dairy, Agro Sciences & administration backgrounds who have deliberated about food crises and worked on developing solutions for improving quality of products and eco-system around it.
+                This group came across many research papers & experts which suggested that our collective evolution and growth depends on natural & biodiversity-based farming.
+                They also studied & reviewed multiple myths associated with green revolution and the way chemical, HY seeds & pesticides-based farming was promoted in India.
+                They are working with clarity and resolve to re-establish biodiversity based organic farming which enables natural & good quality food for households and provides better remuneration & dignity for farmers.
+            </p>
+        </div>
     </div>
 
     <div class="container-fluid px-5">
         <div class="row mt-4 justify-content-center">
-            <div class="col-lg-6 order-1 order-lg-1">
-                <img class="main-image img-fluid"src="images/overview1.jpg" alt="Snow">
+            <div class="col-lg-6 pl-2  pl-sm-3 order-1 order-lg-1">
+                <img class="main-image img-fluid ml-0 ml-sm-3"src="images/overview1.jpg" alt="Snow">
             </div>
             <div class="col-lg-6 pt-4 px-xl-5 pl-0 pl-sm-5 order-2 order-lg-2 ourstory">
                 <h3>Farm</h3>
@@ -181,14 +182,14 @@
                     If there is any new product which is to be added is first tried and tested by family and close frends and then it is sent to market.
                 </p>
             </div>
-            <div class="col-lg-6 pr-lg-4 order-1 order-lg-2">
-                <img class="main-image img-fluid"src="images/overview2.jpg" alt="Snow">
+            <div class="col-lg-6 pr-lg-4 pl-2 pl-sm-3 order-1 order-lg-2">
+                <img class="main-image img-fluid ml-0 ml-sm-3"src="images/overview2.jpg" alt="Snow">
             </div>
         </div>
 
         <div class="row mt-4 justify-content-center">
-            <div class="col-lg-6 order-1 order-lg-1">
-                <img class="main-image img-fluid"src="images/overview3.jpg" alt="Snow">
+            <div class="col-lg-6 order-1 order-lg-1 pl-2 pl-sm-3">
+                <img class="main-image img-fluid ml-0 ml-sm-3"src="images/overview3.jpg" alt="Snow">
             </div>
             <div class="col-lg-6 pt-4 px-xl-5 pl-0 pl-sm-5 order-2 order-lg-2 ourstory">
                 <h3>Retail and shop</h3>
@@ -205,31 +206,105 @@
                 <p>
                     Prakriti organics realized the importance of online interaction & connect and invested in technology, website, app, modern software & equipment.
                     Now, it is easier for us to spread our messages and we can also take orders from all parts of India.
-
+            
                     <div class="row justify-content-center align-items-center pt-0 mt-0">
-                        <div class="col-5 justify-content-center align-items-center text-center">
+                        <div class="col-5 justify-content-center align-items-center text-center pb-2">
                             <h4>Farmers Pride</h4>
-
                             <a href="https://farmerspride.in/">
-                                <img border="0" alt="W3Schools" src="./images/fplogo.jpg" width="150" height="150">
+                                <img border="0" alt="Farmers Pride" src="./images/fplogo.jpg" width="100%" height="100%">
                             </a>
                         </div>
-                    <div class="col-7 justify-content-center align-items-center text-center">
-                        <h4>Prakriti Organics</h4>
-
-                        <a href="http://www.prakriti4u.com/about.php">
-                            <img border="0" alt="W3Schools" src="./Prakriti.png" width="145" height="145" >
-                        </a>
-                    </div></div>
-
+                        <div class="col-7 justify-content-center align-items-center text-center pb-2">
+                            <h4>Prakriti Organics</h4>
+                            <a href="http://www.prakriti4u.com/about.php">
+                                <img border="0" alt="Prakriti Organics" src="./Prakriti.png" width="50%" height="50%" >
+                            </a>
+                        </div>
+                    </div>
                 </p>
             </div>
-            <div class="col-lg-6 pr-lg-4 order-1 order-lg-2">
-                <img class="main-image img-fluid"src="images/overview4.jpg" alt="Snow">
+            <div class="col-lg-6 pr-lg-4 pl-2 pl-sm-3 order-1 order-lg-2">
+                <img class="main-image img-fluid ml-0 ml-sm-3"src="images/overview4.jpg" alt="Snow">
             </div>
         </div>
     </div>
-<br><br><br>
+
+
+
+    
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4">
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left mt-3 pb-3 ">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold ">
+                  Prakriti Organics
+              </h6>
+              <p>Natural Farming is fundamental to peaceful co-existence, sustainability and collective evolution of humanity.</p>
+         </div>
+         <hr class="w-100 clearfix d-md-none">
+         <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                  Useful links
+              </h6>
+              <p class="footer-text">
+              <a href="#!">
+                  Overview
+                  </a>
+              </p>
+              <p class="footer-text">
+              <a href="#!">
+                  Important News
+                  </a>
+              </p>
+              <p class="footer-text">
+              <a href="#!">
+                  Our Products
+                  </a>
+              </p>
+          </div>
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none">
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                  Contact
+              </h6>
+              <p class="footer-text">
+              <i class="fas fa-home mr-3"></i>
+                  Bilaspur Chhattisgarh
+              </p>
+              <p class="footer-text">
+              <i class="fas fa-envelope mr-3"></i>
+              prakriti4u@gmail.com
+              </p>
+              <p class="footer-text">
+              <i class="fas fa-phone mr-3"></i>
+              7987551332
+              </p>
+              <p class="footer-text">
+              <i class="fas fa-phone mr-3"></i>
+              7225849081
+              </p>
+          </div>
+      </div>
+          <hr>
+          <!-- Grid row -->
+          <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+              <div class="col-md-7 col-lg-8">
+                  <!--Copyright-->
+                  <p class="text-center text-md-left">© 2020 Copyright:
+                      <a href="http://www.prakriti4u.com/">
+                          <strong> Prakriti Organics</strong>
+                      </a>
+                  </p>
+              </div>
+          </div>
+      </div>
+  </footer>
+
   <!--Js-->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"></script>

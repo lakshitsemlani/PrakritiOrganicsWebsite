@@ -63,15 +63,28 @@ body{
 }
     body{
         background-image:url(./images/video-bg-1.jpg);
-         
+        padding-top:68px;
     }
+
+.interns h1{
+    text-align:center;
+    font-size:3rem;
+}
 .testimonial{
     background: #fff;
     text-align: center;
     padding: 30px 30px 50px;
-    margin: 0 15px 110px;
+    margin: 0 15px 115px;
     position: relative;
-    margin-top: 168px;
+    margin-top: 40px;
+}
+@media(max-width:480px){
+    .testimonial{
+        margin-top:10px;
+    }
+    .interns h1{
+        font-size:1.5rem;
+    }
 }
 .testimonial:before,
 .testimonial:after{

@@ -11,10 +11,7 @@ height:350px;
 width:100%;
 }
 
-body {
-  background-color: #fffdd0;
 
-}
 .inner-banner {
   position: relative;
   background: #a0a19b;
@@ -51,21 +48,7 @@ body {
   width: 100%;
   text-align: center;
 }
-@media(max-width:900px){
-  .inner-banner h1{
-    font-size: 25px;
-    padding-top: 40px;
-  }
-  .inner-banner {
-    height: 140px;
-  }
- .inner-banner.box{
-  height:140px;
-}
-  .inner-banner:before{
-    height:140px;
-  }
-}
+
 
 .breadcumb-wrapper {
   background-color: #fffdd0;
@@ -115,7 +98,27 @@ body {
   margin-right: 7px;
   font-size: 14px;
 }
+@media(max-width:900px){
+  .inner-banner h1{
+    font-size: 25px;
+    padding-top: 40px;
+  }
+  .inner-banner {
+    height: 140px;
+  }
+ .inner-banner.box{
+  height:140px;
+}
+  .inner-banner:before{
+    height:140px;
+  }
+}
 
+/*content*/
+body {
+  background-color: #fffdd0;
+
+}
 .ourstory h3{
   text-align: center;
   color:rgba(210,105,30,0.8);
