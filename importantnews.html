@@ -9,9 +9,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-
+    
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/85a53d11c2.js" crossorigin="anonymous"></script>
 
     <!--Font Awesome Icons-->
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -20,26 +20,25 @@
     <!-- Index CSS-->
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="importantnews.css">
+    
+    <!--jQuey CDN-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
     <!-- Goggle Font CDN -->
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&display=swap" rel="stylesheet">
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 
-    <title>Prakriti Organics</title>
+    <title>Important News</title>
 </head>
 
 <body>
 
 <!--NavBar-->
-
-<nav id="mainNavbar" class="navbar navbar-expand-lg  py-0 fixed-top container-fluid pl-0 pl-sm-3" >
+<nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark py-0 fixed-top container-fluid pl-0 pl-sm-3" >
   <a id="Navbar-Brand" class="navbar-brand pl-sm-1 pl-md-3 pl-xl-5 ml-3" href="Index.html"><img src="./Prakriti.png" width="50" height="50" class="d-inline-block align-center justify-content-center mb-1 " id="logo" alt="" loading="lazy"> Prakriti Organics</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
+  </button>
   <div class=" collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="container-fluid navbar-nav mr-auto justify-content-center align-itens-center">
           <li class="nav-item dropdown">
@@ -48,27 +47,23 @@
                   About Us
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="ourstory.html">Overview</a>
+                  <a class="dropdown-item" href="ourstory.html">Overview</a>
                   <a class="dropdown-item" href="vision.html">Vision & Mission</a>
                   <a class="dropdown-item" href="ourinspiration.html">Our Inspiration</a>
                   <a class="dropdown-item" href="ourteam.html">Our Team</a>
               </div>
           </li>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle pl-3 pr-xl-4 pl-lg-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Farmer Friends
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-                <a class="dropdown-item" href="stories.html">Stories of Hope</a>
-                <a class="dropdown-item" href="importantnews.html">Important News</a>
-                <a class="dropdown-item" href="ourcommunity.html">Our Community</a>
-
-
-            </div>
-        </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle pl-3 pr-xl-4 pl-lg-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Farmer Friends
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="stories.html">Stories of Hope</a>
+                  <a class="dropdown-item" href="importantnews.html">Important News</a>
+                  <a class="dropdown-item" href="ourcommunity.html">Our Community</a>
+              </div>
+          </li>
           <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle pl-3 pr-xl-4 pl-lg-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
@@ -134,14 +129,29 @@
 </nav>
 
 
-  <div class="inner-banner has-base-color-overlay text-center" style="background: url(images/44.png);background-repeat:  no-repeat;background-size:cover;">
-      <div class="container">
-          <div class="box">
-              <h1>IMPORTANT NEWS</h1>
-          </div>
+<!--heading-->
+<div class="inner-banner has-base-color-overlay text-center" style="background: url(images/44.png);background-repeat:  no-repeat;background-size:cover;">
+  <div class="container justify-content-center align-items-center">
+      <div class="box">
+          <h1>Important News</h1>
       </div>
   </div>
-  <br><br><br>
+</div>
+
+
+<!--Breadcumb-->
+<div class="breadcumb-wrapper ml-4 pl-4">
+      <div class="pull-left">
+          <ul class="list-inline link-list">
+              <li>
+                  <a href="index.html">Home</a> Important News
+              </li>
+          </ul>
+      </div>
+</div>
+
+
+
 <div class="container-fluid">
 <div class="container-frame">
     <div class="card-lower">
@@ -271,6 +281,81 @@
 
 </div>
 </div>
+
+   
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4">
+  <div class="container text-center text-md-left">
+    <div class="row text-center text-md-left mt-3 pb-3 ">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold ">
+                Prakriti Organics
+            </h6>
+            <p>Natural Farming is fundamental to peaceful co-existence, sustainability and collective evolution of humanity.</p>
+       </div>
+       <hr class="w-100 clearfix d-md-none">
+       <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+                Useful links
+            </h6>
+            <p class="footer-text">
+            <a href="#!">
+                Overview
+                </a>
+            </p>
+            <p class="footer-text">
+            <a href="#!">
+                Important News
+                </a>
+            </p>
+            <p class="footer-text">
+            <a href="#!">
+                Our Products
+                </a>
+            </p>
+        </div>
+        <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none">
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+                Contact
+            </h6>
+            <p class="footer-text">
+            <i class="fas fa-home mr-3"></i>
+                Bilaspur Chhattisgarh
+            </p>
+            <p class="footer-text">
+            <i class="fas fa-envelope mr-3"></i>
+            prakriti4u@gmail.com
+            </p>
+            <p class="footer-text">
+            <i class="fas fa-phone mr-3"></i>
+            7987551332
+            </p>
+            <p class="footer-text">
+            <i class="fas fa-phone mr-3"></i>
+            7225849081
+            </p>
+        </div>
+    </div>
+        <hr>
+        <!-- Grid row -->
+        <div class="row d-flex align-items-center">
+        <!-- Grid column -->
+            <div class="col-md-7 col-lg-8">
+                <!--Copyright-->
+                <p class="text-center text-md-left">© 2020 Copyright:
+                    <a href="http://www.prakriti4u.com/">
+                        <strong> Prakriti Organics</strong>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
 <!--Js-->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
