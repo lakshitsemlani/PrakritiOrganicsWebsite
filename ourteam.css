@@ -82,6 +82,22 @@ font-size: 1.25rem;
 margin-top: 10px;
 }
 
+@media(max-width:450px){
+  .container-frame{
+    margin: 20px 10px;
+  }
+  .icon-text{
+    font-size: 0.95rem;
+  }
+  .container-internal h2{
+    font-size: 1.5rem;
+  }
+  .container-internal h4{
+    font-size: 1 rem;
+  }
+
+}
+
 hr.solid {
   border-top: 1px solid #bbb;
   margin:1em 15%;
