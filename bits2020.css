@@ -63,15 +63,29 @@ body{
 }
     body{
         background-image:url(./images/video-bg-1.jpg);
-         
+        padding-top:68px;
     }
+
+.interns h1{
+    text-align:center;
+    font-size:3rem;
+}
 .testimonial{
     background: #fff;
     text-align: center;
     padding: 30px 30px 50px;
-    margin: 0 15px 110px;
+    margin: 0 15px 115px;
     position: relative;
-    margin-top: 168px;
+    margin-top: 20px;
+}
+@media(max-width:480px){
+    .testimonial{
+        margin-top:10px;
+        padding:10px 30px 50px;
+    }
+    .interns h1{
+        font-size:1.5rem;
+    }
 }
 .testimonial:before,
 .testimonial:after{
@@ -123,6 +137,7 @@ body{
 }
 .testimonial .title{
     font-size: 15px;
+    font-family: 'Courgette', cursive;
     font-weight: bold;
     color: #fff;
     text-transform: capitalize;
@@ -132,6 +147,7 @@ body{
     display: block;
     font-size: 14px;
     color: #ffd9b8;
+    font-family:'Courgette', cursive;
 }
 .owl-theme .owl-controls{
     margin-top: 60px;
@@ -153,3 +169,4 @@ body{
         width: 100px !important;
         height: 50px;
     }
+
