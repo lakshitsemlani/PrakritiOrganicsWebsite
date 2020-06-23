@@ -61,7 +61,7 @@ justify-content: space-between;
 .card-lower{
   margin:5px;
   width:440px;
-  height:620px;
+  height:600px;
   border-color: white;
   align-self: center;
   background-color: white;
@@ -81,13 +81,43 @@ justify-content: space-between;
   margin:0px 15px;
 }
 
+.h2{
+text-align:center;
+color:green;
+margin:5px 0px 0px 0px;
+font-family: 'Josefin Sans',sans-serif;
+font-weight: 300;
+font-size: 2.25rem;
+}
+.image{
+   height:300px;
+}
 .icon-text{
 text-align: center;
 font-family: 'Josefin Sans', sans-serif;
 font-weight: 300;
 font-size: 1.25rem;
 }
-
+@media(max-width:450px){
+  .container-frame{
+    margin: 20px 10px;
+  }
+  .icon-text{
+    font-size: 0.95rem;
+  }
+  .container-internal h2{
+    font-size: 1.5rem;
+  }
+  .container-internal h4{
+    font-size: 1 rem;
+  }
+  .image{
+    height:100px;
+  }
+  .card-lower{
+    height:470px;
+  }
+}
 hr.solid {
   border-top: 1px solid #bbb;
   margin:1em 15%;
